@@ -17,8 +17,8 @@ The file [current ontology](./MODELING-ONTOLOGIES.md) describes :
 * the different features of the project
 * how to use in practice the ontology
 
-### 2) How to contribute to HyperAgent
-If you want to contribute, please follow the [contributing file](./CONTRIBUTING.md).
+### 2) How to contribute to current ontology
+If you want to contribute, please follow the [contributing file](./CONTRIBUTING.md) and the [code of conduct](./CODE-OF-CONDUCT.md).
 
 ## III - Versions
 List of the latest versions : 
@@ -37,14 +37,26 @@ List of the latest versions :
 
 ## V - Licence
 ## Acknowledgments
+
 We thank institute 1/institute 2 for supporting and hosting this project.
 
-## Ideas for the README
-Section :  Getting started ?
-Subsection: Prerequisites ?
-Subsection : Installing the project and dependencies ?
-Subsection : Running the project ?
+# Getting started
+
+Here is a section to explain how to get started with the ontology. It could also include a link to the [project primer file](./primer/README.md)
+
+## Prerequisites
+
+Here would be the prerequisites in order to use the project.
+
+## Installing the project and dependencies
+
+Another section could explain how to install some required tools.
+
+## Running the project
+
+A last section could contain, in the case of a project that would be executed, some instructions on how to execute it.
 
 ## References
+
 * a link to a reference
 * another link to a reference
