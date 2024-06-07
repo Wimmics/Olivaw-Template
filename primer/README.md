@@ -14,7 +14,7 @@ This documents provides an overview of the key concepts of the hMAS ontology as 
     2.2. [Class 2](#22-class-2)<br/>
 3. [Examples of key concepts of current ontology](#3-examples-of-key-concepts-of-current-ontology)<br/>
     3.1. [Class 1](#31-class-1)<br/>
-    3.2. [Class 2](#31-class-2)<br/>
+    3.2. [Class 2](#32-class-2)<br/>
 4. [Summary](#4-summary)
 5. [Acknowledgements](#5-acknowledgements)
 6. [References](#6-references)
