@@ -47,14 +47,14 @@ Rules to open an issue :
 
 ### II.2) Code of conduct
 
-Please follow the [code of conduct](https://github.com/HyperAgents/ns.hyperagents.org/blob/master/CODE-OF-CONDUCT.md).
+Please follow the [code of conduct](./CODE-OF-CONDUCT.md).
 
 
 ### II.3) Motivating scenarios
 
 A motivating scenario is a small story problem that provides a short description and a set of informal and intuitive examples to the problem it talks about. Usually, it implicitly brings with it an informal and intended semantics hidden behind natural language descriptions. [Source: SAMOD]
 
-This is a shared common space how to share stories for the HyperAgents project. A story is a template for collecting requirements.
+This is a shared common space how to share stories for the organization project. A story is a template for collecting requirements.
 
 *A) A template for scenarios can include the following check list based on [Source: Scenario Template]:*
 

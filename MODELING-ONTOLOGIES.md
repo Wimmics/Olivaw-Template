@@ -31,7 +31,7 @@ Related issues :
 
 1) Do not duplicate the same difference in properties, classes and ranges/domains
 
-We mean by do not duplicating e.g. do not create a class hmas:containsArtifact if hmas:contains is enough since the type of ressource allows you to know the nature of the container. 
+We mean by do not duplicating e.g. do not create a class `a new ontolgy class` if `an existing ontology class` is enough since `the existing term` already includes it. 
 
 Related issues :
 https://github.com/organization/repository/issues/another_issue_number

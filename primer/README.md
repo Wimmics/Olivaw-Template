@@ -4,7 +4,7 @@
 
 Abstract about the features described by the ontology.
 
-This documents provides an overview of the key concepts of the hMAS ontology as well as examples for their usage and implementation.
+This documents provides an overview of the key concepts of the current ontology as well as examples for their usage and implementation.
 
 # Table of contents
 
@@ -34,7 +34,7 @@ Finally this document ends with a summary of the features available in current o
 
 # 2. Overview of current ontology
 
-This session is meant to explain the key classes of the HMAS ontology. We will go further into detail for each of them. Here is an overview of the structure of the main current ontology model.
+This session is meant to explain the key classes of the current ontology. We will go further into detail for each of them. Here is an overview of the structure of the main current ontology model.
 
 ... Space here reserved for a data model visualisation ...
 
