@@ -1,0 +1,7 @@
+public
+.venv
+.acimov/output/*
+.vscode
+.vscode/*
+*.pyc
+*.jar
