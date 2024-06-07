@@ -4,7 +4,7 @@ This folder is meant to contain the `domains` that the ontology project will dev
 
 During an iteration, a `motivating scenario` is written. It explains a situation and adresses questions in natural language named `competency questions` that cannot be described by the ontology, while it should. The current iteration should then determine which minimal set of terms named `glossary of terms` are needed to be added in order to implement the `competency questions` using SparQL.
 
-These terms are then developped in a ontology fragment named `modelet` and this modelet is populated in a `dataset`. Finally the competency questions that were written in SparQL.
+These terms are then developped in a ontology fragment named `modelet` and this modelet is populated in a `dataset`. Finally the competency questions are then implemented in SparQL, showing that the situation can now be described with these new terms.
 
 The `motivating scenarios` are sorted here by `domain` types.
 
