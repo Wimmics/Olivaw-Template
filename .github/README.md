@@ -34,7 +34,7 @@ olivaw init repo
 pip install pre-commit
 ```
 
-In this template the [pre-commit hook configuration file](./.pre-commit-config.yaml) is already set, so the last step is to enable the hook using the following command:
+In this template the [pre-commit hook configuration file](../.pre-commit-config.yaml) is already set, so the last step is to enable the hook using the following command:
 
 ```shell
 pre-commit install
@@ -48,11 +48,11 @@ Check the [olivaw functional documentation](https://github.com/Wimmics/olivaw/tr
 
 Different files were made templates so that it can be adapted to any ontology project:
 
-* [ONTOLOGY primer](./primer/README.md): A primer template that will provide all the key concepts explanations to use the ontology 
-* [MODELING-ONTOLOGIES](./MODELING-ONTOLOGIES.md): A document meant to provides general guidelines about how to use the ontology
-* [ONTOLOGY alignment](./primer/other-ontology-alignment.md): A template document that will provide all the required information to align a dataset expressed with a similar ontology with the current project ontology
+* [ONTOLOGY primer](../primer/README.md): A primer template that will provide all the key concepts explanations to use the ontology 
+* [MODELING-ONTOLOGIES](../MODELING-ONTOLOGIES.md): A document meant to provides general guidelines about how to use the ontology
+* [ONTOLOGY alignment](../primer/other-ontology-alignment.md): A template document that will provide all the required information to align a dataset expressed with a similar ontology with the current project ontology
 
-Finally, the main README.md file that is intended is the [README template](./README-template.md) that can be found in this folder.
+Finally, the main README.md file that is intended is the [README template](../README.md) that can be found in this folder.
 
 ## Features
 
@@ -67,23 +67,23 @@ Finally, the main README.md file that is intended is the [README template](./REA
 
 Many files are already there and may be kept, updated, adapted or removed at will, such as:
 
-* [README template](./README-template.md) that will provide the main element to redact a proper README.md file for the project
-* [CODE OF CONDUCT](./CODE-OF-CONDUCT.md) that will provide the code of conduct to follow during any interaction during the ontology development
-* [CONTRIBUTING file](./CONTRIBUTING.md) that provides the main guidelines to contribute for the ontology
-* [license file](./LICENSE) that provides the copyrights that should apply to the project. The default version is [LGPL-2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html)
-* [ONTOLOGY primer](./primer/README.md): A primer template that will provide all the key concepts explanations to use the ontology 
-* [MODELING-ONTOLOGIES](./MODELING-ONTOLOGIES.md): A document meant to provides general guidelines about how to use the ontology
-* [ONTOLOGY alignment](./primer/other-ontology-alignment.md): A template document that will provide all the required information to align a dataset expressed with a similar ontology with the current project ontology
-* [.gitignore](./.gitignore/): A file that exclude different files and folders to be commited so that no useless and polluting files are pushed to the repository
+* [README template](../README.md) that will provide the main element to redact a proper README.md file for the project
+* [CODE OF CONDUCT](../CODE-OF-CONDUCT.md) that will provide the code of conduct to follow during any interaction during the ontology development
+* [CONTRIBUTING file](../CONTRIBUTING.md) that provides the main guidelines to contribute for the ontology
+* [license file](../LICENSE) that provides the copyrights that should apply to the project. The default version is [LGPL-2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html)
+* [ONTOLOGY primer](../primer/README.md): A primer template that will provide all the key concepts explanations to use the ontology 
+* [MODELING-ONTOLOGIES](../MODELING-ONTOLOGIES.md): A document meant to provides general guidelines about how to use the ontology
+* [ONTOLOGY alignment](../primer/other-ontology-alignment.md): A template document that will provide all the required information to align a dataset expressed with a similar ontology with the current project ontology
+* [.gitignore](../.gitignore/): A file that exclude different files and folders to be commited so that no useless and polluting files are pushed to the repository
 
 Different folders are also present as part of the acimov architecture, namely:
-* [domains folder](./domains/) that will contain the different application domains and motivating scenarios, check the [domains documentation](./domains/)
-* [src folder](./src/) that will contain the different modules that are expected to be published
-* [use-cases folder](./use-cases/) that will contain all the scenarios that can show the actual abilities of the ontology
-* [resources folder](./resources) that is expected to contain the different resources that may be useful for the main README file
-* [primer folder](./primer/) that will contain the ontology primer and the different alignement documents
-* [.acimov folder](./.acimov/) that will contain the different files and folders related to acimov process and olivaw
-* [.github folder](./github/) that will contain the different files and folders related to github, including the workflow files
+* [domains folder](../domains/) that will contain the different application domains and motivating scenarios, check the [domains documentation](../domains/)
+* [src folder](../src/) that will contain the different modules that are expected to be published
+* [use-cases folder](../use-cases/) that will contain all the scenarios that can show the actual abilities of the ontology
+* [resources folder](../resources) that is expected to contain the different resources that may be useful for the main README file
+* [primer folder](../primer/) that will contain the ontology primer and the different alignement documents
+* [.acimov folder](../.acimov/) that will contain the different files and folders related to acimov process and olivaw
+* [.github folder](../github/) that will contain the different files and folders related to github, including the workflow files
 
 ## Parameters
 
