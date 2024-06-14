@@ -2,7 +2,13 @@
 
 A template repository for projects using Olivaw to support ontology engineering using Acimov methodology.
 
+This repository is affiliated to the [Wimmics reasearch team](https://www.inria.fr/fr/wimmics), check the other [Wimmics projects](https://github.com/Wimmics).
+
 ## How to use
+
+This repository is made to help any developer to start an ACIMOV ontology development process, so check the [scientific article about the ACIMOV methodology](https://www.emse.fr/~zimmermann/Papers/mk2023.pdf).
+
+This repository also relies on olivaw framework, so check [olivaw repository and its documentation](https://github.com/Wimmics/olivaw).
 
 ### Install the available tools
 
@@ -74,6 +80,7 @@ Finally, the main README.md file that is intended is the [README template](../RE
 Many files are already there and may be kept, updated, adapted or removed at will, such as:
 
 * [README template](../README.md) that will provide the main element to redact a proper README.md file for the project
+* [AUTHORS template](../AUTHORS.md) that should provide the information to developpers and some useful information about the project
 * [CODE OF CONDUCT](../CODE-OF-CONDUCT.md) that will provide the code of conduct to follow during any interaction during the ontology development
 * [CONTRIBUTING file](../CONTRIBUTING.md) that provides the main guidelines to contribute for the ontology
 * [license file](../LICENSE) that provides the copyrights that should apply to the project. The default version is [LGPL-2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html)
@@ -90,6 +97,8 @@ Different folders are also present as part of the acimov architecture, namely:
 * [primer folder](../primer/) that will contain the ontology primer and the different alignement documents
 * [.acimov folder](../.acimov/) that will contain the different files and folders related to acimov process and olivaw
 * [.github folder](../github/) that will contain the different files and folders related to github, including the workflow files
+
+A CITATION.cff at the root of the repository may be also a good idea for any people to cite the ontology properly. Several [CITATION.cff files generators](https://citation-file-format.github.io/cff-initializer-javascript/#/) exist to make one quite easily.
 
 ## Parameters
 
