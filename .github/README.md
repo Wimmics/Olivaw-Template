@@ -8,7 +8,7 @@ This repository is affiliated to the [Wimmics reasearch team](https://www.inria.
 
 This repository is made to help any developer to start an ACIMOV ontology development process, so check the [scientific article about the ACIMOV methodology](https://www.emse.fr/~zimmermann/Papers/mk2023.pdf).
 
-This repository also relies on olivaw framework, so check [olivaw repository and its documentation](https://github.com/Wimmics/olivaw).
+This repository also relies on olivaw framework, so check the [olivaw repository and its documentation](https://github.com/Wimmics/olivaw).
 
 ### Install the available tools
 
