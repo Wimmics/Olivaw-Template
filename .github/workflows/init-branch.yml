@@ -7,7 +7,9 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-    run: |
+    - name: Getting ref type information
+      shell: bash
+      run: |
         IFS='/' read -ra PATHS <<< "${{ inputs.ref }}"
         echo "REF_TYPE=$(echo ${PATHS[1]})" >> $GITHUB_ENV
     - uses: Wimmics/olivaw/init-branch@v0.0.5
