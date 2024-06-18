@@ -19,6 +19,7 @@ This repository also relies on olivaw framework, so check the [olivaw repository
 * Inside the repository folder, type `olivaw init repo` and follow the instructions
 * Install `pre-commit package` using the command `pip install pre-commit`
 * Inside the repository folder, type `pre-commit install`
+* Remove the [current README.md file](./README.md)
 
 Check the [olivaw functional documentation](https://github.com/Wimmics/olivaw/tree/main/docs) for more details about olivaw CLI and olivaw pre-commit hook.
 
