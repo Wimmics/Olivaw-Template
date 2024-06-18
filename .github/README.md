@@ -10,19 +10,29 @@ This repository is made to help any developer to start an ACIMOV ontology develo
 
 This repository also relies on olivaw framework, so check the [olivaw repository and its documentation](https://github.com/Wimmics/olivaw).
 
-### Install the available tools
+### Quick start
 
-This project is using different GitHub Actions that automatize some developper work about test and branch initialization. These Actions require to have access to a Gist that will be needed to store information about badges that will appear at the top of the main `README.md` page.
+* Instanciate a repository using the "Use this template"
+* Add a repository secret variable named `GIST_SECRET` containing an access token with the `gist` scope (see [how to add make the token and add the secret](#add-gist-scope-access-token-to-secret-repository-variable))
+* Clone the repository locally with `git clone ...`
+* Install `olivaw` package
+* Inside the repository folder, type `olivaw init repo` and follow the instructions
+* Install `pre-commit package` using the command `pip install pre-commit`
+* Inside the repository folder, type `pre-commit install`
 
-Check the [olivaw getting started documentation](https://github.com/Wimmics/olivaw/tree/main?tab=readme-ov-file#getting-a-personnal-access-token-with-gist-scope) to know how to generate a GitHub access token with the `gist` scope and set it as a repository secret variable.
+Check the [olivaw functional documentation](https://github.com/Wimmics/olivaw/tree/main/docs) for more details about olivaw CLI and olivaw pre-commit hook.
 
-There are two olivaw usages that need local installation.
+### Add gist scope access token to secret repository variable
 
-Both of them are using the [olivaw python package](https://pypi.org/project/olivaw/), which is relying on [Corese RDF](https://project.inria.fr/corese/), a Java RDF database system that supports OWL EL/QL/RL reasoning, ShaCL validation and OWL Profile diagnose.
+* First go to the [Github access token generation webpage](https://github.com/settings/tokens).
+* Then create a personnal access token with only the `gist` scope. Copy/paste this token somewhere because it will never be shown again.
+* Then go to `{repository_url}/settings/secrets/actions`, create a new repository secret named `GIST_SECRET` and paste the key
 
-Therefore any of these usages will require [python version 3.10 or greater](https://www.python.org/downloads/) and a [Java version 11 or greater](https://www.oracle.com/fr/java/technologies/downloads/)
+### Install olivaw
 
-[olivaw python package](https://pypi.org/project/olivaw/) can be used as a command tool to generate locally test reports over the ontology fragments, data fragments and competency questions of an acimov project. It also provides tools to facilitate the development process with features like repository or branch badges initializing. Given the previous prerequisites, it can be installed using [pypi](https://pypi.org/) command:
+Olivaw requires [python version 3.10 or greater](https://www.python.org/downloads/) and a [Java version 11 or greater](https://www.oracle.com/fr/java/technologies/downloads/)
+
+It can be installed using [pypi](https://pypi.org/):
 
 ```shell
 pip install olivaw
@@ -33,29 +43,6 @@ Installing from GitHub URL is also possible:
 ```shell
 pip install git+https://github.com/Wimmics/olivaw
 ```
-
-Then, using the access token generated above, generate the `.acimov/parameters.json` file using this command:
-
-```shell
-olivaw init repo
-```
-
-[olivaw pre-commit hook](https://github.com/Wimmics/olivaw/blob/main/docs/pre-commit.md) is a program relying on [pre-commit](https://pre-commit.com/) that tests locally the different files staged for commit before pushing to the repository origin. It works with git CLI and [GitHub Desktop](https://desktop.github.com/).
-Pre-commit can be installed with the following command:
-
-```shell
-pip install pre-commit
-```
-
-In this template the [pre-commit hook configuration file](../.pre-commit-config.yaml) is already set, so the last step is to enable the hook using the following command:
-
-```shell
-pre-commit install
-```
-
-The first hook trigger will last longer since it needs to clone the repository and install the hook in a virtual environment.
-
-Check the [olivaw functional documentation](https://github.com/Wimmics/olivaw/tree/main/docs) for more details about olivaw CLI and olivaw pre-commit hook.
 
 ### Fill the template files
 
@@ -71,7 +58,7 @@ Finally, the main README.md file that is intended is the [README template](../RE
 
 ### Development features
 
-* test generation against ontology fragments, data fragments and competency questions. Check the [olivaw test documentation](https://github.com/Wimmics/olivaw/blob/main/docs/tests.md) for more details about what is tested, [olivaw custom test documentation](https://github.com/Wimmics/olivaw/blob/main/docs/custom-tests.md) to see how to add more cutomized tests, [olivaw parameters documentation](https://github.com/Wimmics/olivaw/blob/main/docs/parameters.md) to see how to customize the olivaw project parameters, and [olivaw command line documentation](https://github.com/Wimmics/olivaw/blob/main/docs/commands.md) to see how to trigger these tests using CLI.
+* test run locally against ontology fragments, data fragments and competency questions. Check the [olivaw command line documentation](https://github.com/Wimmics/olivaw/blob/main/docs/commands.md) for how to run tests, [olivaw test documentation](https://github.com/Wimmics/olivaw/blob/main/docs/tests.md) for details about what is tested and what the default tests cover, [olivaw custom test documentation](https://github.com/Wimmics/olivaw/blob/main/docs/custom-tests.md) to see how to add cutomized tests and [olivaw parameters documentation](https://github.com/Wimmics/olivaw/blob/main/docs/parameters.md) to see how to customize the olivaw project parameters.
 * pre-commit hook that will prevent blocking errors to be committed on client side to be pushed to origin repository. Check the [pre-commit documentation](https://pre-commit.com/) and [olivaw pre-commit hook documentation](https://github.com/Wimmics/olivaw/blob/main/docs/pre-commit.md) for more details.
 * GitHub Actions that will manage the branches initializaton and provide health checks of the different branches at any time. Check the [GitHub Actions documentation](https://github.com/Wimmics/olivaw/blob/main/docs/actions.md)
 

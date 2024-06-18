@@ -18,4 +18,4 @@ jobs:
         repository: ${{ github.repository }}
         ref: ${{ github.ref }}
         gist-secret: ${{ secrets.GIST_SECRET }}
-        init-badges: false
+        init-badges: true
