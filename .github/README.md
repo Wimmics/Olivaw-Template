@@ -49,6 +49,7 @@ pip install git+https://github.com/Wimmics/olivaw
 
 Different files were made templates so that it can be adapted to any ontology project:
 
+* [README](../README.md): The main file that should present this ontology to anyone discovering the repository
 * [ONTOLOGY primer](../primer/README.md): A primer template that will provide all the key concepts explanations to use the ontology 
 * [MODELING-ONTOLOGIES](../MODELING-ONTOLOGIES.md): A document meant to provides general guidelines about how to use the ontology
 * [ONTOLOGY alignment](../primer/other-ontology-alignment.md): A template document that will provide all the required information to align a dataset expressed with a similar ontology with the current project ontology
