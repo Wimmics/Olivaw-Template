@@ -12,7 +12,7 @@ This repository also relies on olivaw framework, so check the [olivaw repository
 
 ### Quick start
 
-* Instanciate a repository using the "Use this template"
+* Instanciate a repository using the "Use this template" button at the top of the template repository webpage
 * Add a repository secret variable named `GIST_SECRET` containing an access token with the `gist` scope (see [how to add make the token and add the secret](#add-gist-scope-access-token-to-secret-repository-variable))
 * Clone the repository locally with `git clone ...`
 * Install `olivaw` package
