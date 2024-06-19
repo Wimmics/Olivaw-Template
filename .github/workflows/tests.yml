@@ -1,10 +1,10 @@
-name: model-test
+name: olivaw-test
 on: push
 
 env:
   MAIN: 'main'
 jobs:
-  model-test:
+  olivaw-test:
     permissions:
       contents: write
     runs-on: ubuntu-latest
