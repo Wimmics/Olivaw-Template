@@ -12,9 +12,7 @@ jobs:
     - run: |
         IFS='/' read -ra PATHS <<< "${{ github.ref }}"
         echo "BRANCH=$(echo ${PATHS[2]})" >> $GITHUB_ENV
-    - uses: Wimmics/olivaw/test-actions@v0.0.5
+    - uses: Wimmics/olivaw/test-actions@v0.0.6
       with:
-        repository: ${{ github.repository }}
-        ref: ${{ github.ref }}
         gist-secret: ${{ secrets.GIST_SECRET }}
         commit-report: ${{ env.BRANCH == env.MAIN }}
