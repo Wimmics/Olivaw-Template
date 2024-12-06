@@ -10,7 +10,7 @@ Explanation of the ontology that is developped in this repository.
 
 Information of the context where the ontology project took place. It may include any related links like one for the organization.
 
-## II - Guide and standardistaiion
+## II - Guide and standardisation
 ### 1) How to use the ontology
 
 The file [current ontology](./MODELING-ONTOLOGIES.md) describes :
