@@ -12,7 +12,7 @@ jobs:
       run: |
         IFS='/' read -ra PATHS <<< "${{ inputs.ref }}"
         echo "REF_TYPE=$(echo ${PATHS[1]})" >> $GITHUB_ENV
-    - uses: Wimmics/olivaw/init-branch@v0.0.6
+    - uses: Wimmics/olivaw/init-branch@v0.0.7
       if: ${{ env.REF_TYPE != 'tags' }}
       with:
         gist-secret: ${{ secrets.GIST_SECRET }}
